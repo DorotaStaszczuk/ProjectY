@@ -8,7 +8,7 @@
     <title>Piramida</title>
     <style>
         .trojkat{
-            background-color: white;
+            background-color: red;
         }
     </style>
 </head>
@@ -49,11 +49,8 @@
     </main>
     <footer>tutaj stopa</footer>
     <script>
-    let x = document.getElementsByClassName("trojkat");
+    let x = document.getElementsByClassName("trojkat").style.bgColor;
     console.log(x);
-    if (x.style.bgColor === 'white'){
-        x.style.bgColor = 'red';
-    }
     </script>
 </body>
 </html>
